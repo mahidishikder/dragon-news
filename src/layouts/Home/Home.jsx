@@ -2,7 +2,7 @@ import Header from "../../components/Header"
 import Latest from "../../components/Latest"
 import Navber from './../../components/Navber/Navber';
 import Left from "../../components/MainLayouts/Left";
-import Main from "../../components/MainLayouts/Main";
+
 import Right from "../../components/MainLayouts/Right";
 import { Outlet } from "react-router-dom";
 

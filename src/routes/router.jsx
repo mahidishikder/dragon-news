@@ -2,6 +2,8 @@ import { createBrowserRouter, Navigate } from "react-router-dom"
 import Home from "../layouts/Home/Home"
 import PagesCategory from "../components/pages/PagesCategory"
 import Auth from "../layouts/Auth"
+import Login from "../components/Login/Login"
+import Register from "../components/Register/Register"
 
 
 
@@ -36,11 +38,11 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/auth/login',
-        element:<h2>Login</h2>
+        element:<Login></Login>
       },
       {
         path:'/auth/register',
-        element:<h2>Register</h2>
+        element:<Register></Register>
       }
     ]
   },
